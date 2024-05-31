@@ -1,0 +1,62 @@
+.loginPage{
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+.loginPage button{
+  width: 150px;
+  padding: 10px;
+  margin: auto;
+}
+.loginPage input{
+  padding: 10px;
+}
+.formBox form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  position: fixed;
+  top: 60px;
+  left: 750px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px white;
+}
+.formBox form img{
+  width: 100px;
+  height: 100px;
+}
+.btn.close{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.deleteIcon{
+  position: absolute;
+  bottom: 4vw;
+  right: 10px;
+  cursor: pointer;
+}
+.editIcon{
+  position: absolute;
+  bottom: 4vw;
+  right: 50px;
+  cursor: pointer;
+}
+.fromYourPost{
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  padding: 3vw;
+  color: white;
+}
